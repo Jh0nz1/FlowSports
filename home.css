@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 170vh;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    padding: 10px;
+    min-width: 100%;
+    background: #332D2D;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.logo {
+    max-width: 100px;
+    background: #fff;
+    border-radius: 100px;
+    padding: 0px 20px;
+}
+
+.lista-header {
+    display: flex;
+    margin-top: 30px;
+    gap: 50px;
+}
+
+.cadastro1 {
+    max-width: 120px;
+    background: #ffb004;
+    border-radius: 35px;
+    padding: 10px 20px;
+    color: black;
+}
+
+.carrinho {
+    margin-top: -10px;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.user {
+    gap: -10px;
+    margin-top: -15px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+main {
+    width: 100%;
+    height: 500px;
+    display: block;
+    background-color: black;
+}
+
+#promocao {
+    text-align: center;
+    padding-top: 76px;
+}
+
+#produtos {
+    background-color: #332D2D;
+    height: 450px;
+    min-width: 100%;
+    padding-left: 220px;
+    text-align: center;
+}
+
+.Produtos2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+#Camisas {
+    margin-top: 50px;
+    margin-left: 150px;
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    background-color: #F5AE31;
+
+}
+
+.TxtCamisas {
+    font-size: 25px;
+    padding-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Shorts {
+    margin-top: -200px;
+    margin-left: 450px;
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    background-color: #F5AE31;
+}
+
+.TxtShorts {
+    font-size: 25px;
+    padding-top: 35px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#Calcados {
+    margin-top: -200px;
+    margin-left: 750px;
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    background-color: #F5AE31;
+}
+
+
+.TxtCalcados {
+    font-size: 25px;
+    padding-top: 45px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Bolas {
+    margin-top: -200px;
+    margin-left: 1050px;
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    background-color: #F5AE31;
+}
+
+
+.TxtBolas {
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Shorts2 {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.Tenis {
+    padding-top: 50px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+}
+
+#footer1 {
+    width: 50%;
+    background-color: #332D2D;
+    height: 700px;
+}
+
+#footer2 {
+    width: 50%;
+    background-color: #F5AE31;
+    height: 700px;
+}
+
+.Masculino {
+    padding-left: 25%;
+    padding-top: 10%;
+}
+
+.Feminino {
+    padding-left: 25%;
+    padding-top: 10%;
+}
+
+.txtMasculino {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: -100px;
+}
+
+.txtFeminino {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: -100px;
+}
